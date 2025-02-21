@@ -108,7 +108,7 @@ main {
 /* main */
 
 .content-wrapper {
-    border: 2px solid #ffa800;
+    /* border: 2px solid #ffa800; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,11 +119,65 @@ main {
 .icons-wrapper {
     width: 270px;
     min-height: 250px;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 
 .calls-card-wrapper {
     min-height: 430px;
     width: 330px;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.icon-module {
+    text-align: center;
+    flex-grow: 1;
+
+}
+.icon-module h3{
+    font-size: 11px;
+    color: #7a7a8a;
+}
+.icon-module .icon-box {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(29, 134, 255);
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 28px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+
+
+/* card calls */
+
+.calls-card-wrapper {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 25px 10px;
+    color: white;
+    background-color:darkblue;
+    text-align: center;
+}
+.card-header .time {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.card-body {
+    padding-top: 140px;
+    text-align: center;
+    color: #7a7a8a
 }
