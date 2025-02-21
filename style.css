@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open-sans, Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: 50px;
+    border: 5px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    border: 5px solid red;
+    flex-grow: 1;
+}
+
+.app-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.app-nav li {
+    text-align: center;
+    color: rgb(172, 172, 172);
+}
+
+.app-nav li i {
+    display: block;
+    margin-bottom: 4px;
+}
