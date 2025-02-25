@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,111 +9,173 @@
     <script src="https://kit.fontawesome.com/cfb2eccc9a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Candal&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  
-<head>
-<body>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Candal&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
 
-    <header>
+    <head>
 
-        <div class="search-bar">
+    <body>
 
-            <div class="nav-arrows">
+        <header>
+
+            <div class="search-bar">
+
+                <div class="nav-arrows">
+                    <div class="icon-shape">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="icon-shape">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+
                 <div class="icon-shape">
-                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
                 </div>
+
+                <div class="input-wrapper">
+                    <input type="text" class="input-shape" placeholder="Cerca">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <nav class="app-nav">
+                <ul>
+                    <li class="active">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-comment"></i>
+                        Chat
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        Riunioni
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-book"></i>
+                        Contatti
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-download"></i>
+                        App
+                    </li>
+            </nav>
+
+            <div class="profile-bar">
+                <div class="profile-avatar icon-shape">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="content-wrapper">
+
+                <div class="icons-wrapper">
+                    <div class="icon-module">
+                        <div class="icon-box" style="background-color: darkorange">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <h3>Nuova Riunione <i class="fa-solid fa-chevron-down"></i></h3>
+                    </div>
+                    <div class="icon-module">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-square-plus"></i>
+                        </div>
+                        <h3>Entra</h3>
+                    </div>
+                    <div class="icon-module">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-calendar-day"></i>
+                        </div>
+                        <h3>Calendario</h3>
+                    </div>
+                    <div class="icon-module">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-square-caret-up"></i>
+                        </div>
+                        <h3>Condividi schermo</h3>
+                    </div>
+                </div>
+
+                <div class="calls-card-wrapper">
+
+                    <div class="card-header">
+                        <p class="time">00.16</p>
+                        <p>Venerdì 21 Febbraio 2025</p>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Nessuna prossima riunione per oggi</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- <footer> -->
+        <!--<div class="search-bar">
+
+                <div class="nav-arrows">
+                    <div class="icon-shape">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="icon-shape">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+
                 <div class="icon-shape">
-                    <i class="fa-solid fa-chevron-right"></i>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="text" class="input-shape" placeholder="Cerca">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div class="icon-shape">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-            </div>
+            <nav class="app-nav">
+                <ul>
+                    <li class="active">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-comment"></i>
+                        Chat
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        Riunioni
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-book"></i>
+                        Contatti
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-download"></i>
+                        App
+                    </li>
+            </nav>
 
-            <div class="input-wrapper">
-               <input type="text" class="input-shape" placeholder="Cerca">
-               <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
-
-        <nav class="app-nav">
-            <ul>
-                <li class="active">
-                    <i class="fa-solid fa-house"></i>
-                    Home
-                </li>
-                <li>
-                    <i class="fa-solid fa-comment"></i>
-                    Chat
-                </li>
-                <li>
-                    <i class="fa-solid fa-clock"></i>
-                    Riunioni  
-                </li>
-                <li>
-                    <i class="fa-solid fa-address-book"></i>
-                    Contatti
-                </li>
-                <li>
-                    <i class="fa-solid fa-download"></i>
-                    App
-                </li>
-        </nav>
-
-        <div class="profile-bar">
-            <div class="profile-avatar icon-shape">
-                <i class="fa-solid fa-user"></i>
-            </div>
-        </div>
-
-    </header>
-
-    <main>
-
-        <div class="content-wrapper">
-
-            <div class="icons-wrapper">
-                <div class="icon-module">
-                    <div class="icon-box" style="background-color: darkorange">
-                        <i class="fa-solid fa-video"></i>
-                    </div>
-                    <h3>Nuova Riunione <i class="fa-solid fa-chevron-down"></i></h3>
+            <div class="profile-bar">
+                <div class="profile-avatar icon-shape">
+                    <i class="fa-solid fa-user"></i>
                 </div>
-                <div class="icon-module">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-square-plus"></i>
-                    </div>
-                    <h3>Entra</h3>
-                </div>
-                <div class="icon-module">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-calendar-day"></i>
-                    </div>
-                    <h3>Calendario</h3>
-                </div>
-                <div class="icon-module">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-square-caret-up"></i>
-                    </div>
-                    <h3>Condividi schermo</h3>
-                </div>
-            </div>
+            </div> -->
 
-            <div class="calls-card-wrapper">
+        <!-- <div class="logo">
+            <img src="logo/pngwing.com.png">
+        </div> -->
 
-                <div class="card-header">
-                    <p class="time">00.16</p>
-                    <p>Venerdì 21 Febbraio 2025</p>
-                </div>
+        <!-- </footer> -->
 
-                <div class="card-body">
-                    <p>Nessuna prossima riunione per oggi</p>
-                </div>
-            </div>
-        </div>
+    </body>
 
-    </main>
-    
-</body>
 </html>
